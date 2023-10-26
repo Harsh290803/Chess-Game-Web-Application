@@ -1,24 +1,29 @@
 body {
-    background-color: white;
+    background-color: #262421;
+}
+
+#info-display {
+    display: inline;
+    color: white;
 }
 
 #gameboard {
     display: flex;
     flex-wrap: wrap;
-    width: 320px;
-    height: 320px;
+    width: 24rem;
+    height: 24rem;
 }
 
 .square {
-    height: 40px;
-    width: 40px;
+    height: 3rem;
+    width: 3rem;
     position: relative;
 }
 
 .square svg {
-    height: 30px;
-    width: 30px;
-    margin: 5px;
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem;
     position: relative;
     z-index: -9;
 }
